@@ -14,6 +14,11 @@ import java.util.*;
 @Entity
 public class User implements UserDetails {
 
+    /**
+     *
+     */
+    private static final long serialVersionUID = -6321228277156953654L;
+
     @Id
     @Column(nullable = false, unique = true)
     @Email(regexp =
